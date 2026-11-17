@@ -326,7 +326,6 @@ html {
     margin-bottom: 40px;
 }
 
-/* LEFT SIDE - SKILLS */
 
 .skills-list {
     flex: 1;
@@ -340,7 +339,6 @@ html {
     font-weight: 300;
 }
 
-/* RIGHT SIDE - LANGUAGES */
 
 .languages {
     flex: 1;
@@ -357,7 +355,6 @@ html {
     margin-bottom: 30px;
 }
 
-/* ANIMATED LANGUAGE BARS */
 
 .language-bar {
     display: block;
@@ -369,7 +366,7 @@ html {
     animation: slideBar 1.5s ease-out both;
 }
 
-/* INDIVIDUAL BAR WIDTHS */
+
 
 .english {
     width: 100px;
@@ -391,7 +388,7 @@ html {
     animation-delay: 0.8s;
 }
 
-/* SLIDING ANIMATION */
+
 
 @keyframes slideBar {
     from {
@@ -404,7 +401,7 @@ html {
 }
 
 
-/* CONTACT SECTION */
+
 
 .contact-section {
     min-height: 65vh;
@@ -424,7 +421,7 @@ html {
     text-align: center;
 }
 
-/* CONTACT HEADING */
+
 
 .contact-section h2 {
     font-size: 36px;
@@ -433,7 +430,6 @@ html {
     margin-bottom: 45px;
 }
 
-/* CONTACT DETAILS */
 
 .contact-details {
     display: flex;
@@ -459,7 +455,7 @@ html {
     object-fit: contain;
 }
 
-/* GET IN TOUCH BUTTON */
+
 
 .contact-button {
     display: inline-block;
@@ -483,20 +479,32 @@ html {
     color: white;
 }
 
-/* MOBILE RESPONSIVENESS */
 
-@media (max-width: 600px) {
-    .contact-section {
-        padding: 60px 20px;
-    }
+.resume-box {
+    margin-top: 30px;
+    padding: 20px 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
 
-    .contact-section h2 {
-        font-size: 27px;
-    }
+.resume-box a {
+    color: white;
+    text-decoration: none;
 
-    .contact-item {
-        font-size: 14px;
-    }
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.resume-box:hover {
+    background-color: #C8A951;
+    border-color: #C8A951;
+}
+
+.resume-box a:hover {
+    color: white;
 }
 
 
